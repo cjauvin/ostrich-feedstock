@@ -1,0 +1,11 @@
+package:
+  name: ostrich
+  version: 0.1
+
+source:
+  git_url: https://github.com/usbr/ostrich.git
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+    - make  # [not win]
